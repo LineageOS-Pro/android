@@ -34,7 +34,7 @@
   <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed,sysui-studio" />
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="LineageOS-Pro/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
@@ -361,6 +361,7 @@
   <project path="external/mbedtls" name="platform/external/mbedtls" groups="pdk" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/mimalloc" name="LineageOS-Pro/android_external_mimalloc" groups="pdk" revision="main" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" remote="aosp" />
   <project path="external/minidns" name="platform/external/minidns" groups="pdk" remote="aosp" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
